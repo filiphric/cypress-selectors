@@ -20,8 +20,8 @@ it('Should show command chain', () => {
 
   cy
     .get('.list')
-    .find('li')
-    .contains('violet');
+    .find('li') // returns 7 li elements
+    .contains('violet'); // returns a single element
 
 });
 

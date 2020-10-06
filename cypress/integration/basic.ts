@@ -12,6 +12,6 @@ it('Should select elements', () => {
     .get('h1') // select by tag
     .get('.square') // select by class
     .get('#circle') // select by id
-    .get('[shape="triangle"]'); // select by attribute
+    .get('[data-cy="triangle"]'); // select by attribute
 
 });
